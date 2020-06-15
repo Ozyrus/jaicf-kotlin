@@ -75,6 +75,10 @@ Create a new bot using Telegram's `@BotFather` and any Telegram client as descri
 Copy your new bot's **access token** to the clipboard.
 
 #### 4. Create and run Telegram channel
+Don't forget to import TelegramChannel first
+```kotlin
+import com.justai.jaicf.channel.telegram.TelegramChannel
+```
 
 ```kotlin
 fun main() {
